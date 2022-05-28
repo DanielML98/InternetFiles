@@ -34,3 +34,8 @@ class ViewController: UIViewController {
   }
 }
 
+enum Files: String {
+  case excel = "localidades.xlsx"
+  case pdf = "Articles.pdf"
+  case image = "geo_vertical.jpg"
+}
